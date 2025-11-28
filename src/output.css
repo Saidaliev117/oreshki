@@ -634,6 +634,10 @@ video {
   width: 40px;
 }
 
+.w-\[45\%\] {
+  width: 45%;
+}
+
 .w-\[500px\] {
   width: 500px;
 }
@@ -644,6 +648,10 @@ video {
 
 .w-\[97\%\] {
   width: 97%;
+}
+
+.w-\[48\%\] {
+  width: 48%;
 }
 
 .flex-col {
@@ -718,10 +726,6 @@ video {
   border-radius: 50px;
 }
 
-.rounded-\[24px\] {
-  border-radius: 24px;
-}
-
 .border-\[1px\] {
   border-width: 1px;
 }
@@ -757,11 +761,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#F0FDF4\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(240 253 244 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[linear-gradient\(to_bottom\2c rgba\(0\2c 0\2c 0\2c 0\.6\)\2c rgba\(0\2c 0\2c 0\2c 0\.6\)\)\2c url\(\.\/Images\/Rectangle6\.png\)\] {
@@ -803,6 +802,11 @@ video {
   padding-right: 70px;
 }
 
+.px-\[7px\] {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -821,21 +825,6 @@ video {
 .py-\[15px\] {
   padding-top: 15px;
   padding-bottom: 15px;
-}
-
-.px-\[30px\] {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.px-\[7px\] {
-  padding-left: 7px;
-  padding-right: 7px;
-}
-
-.py-\[100px\] {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .py-\[3px\] {
@@ -871,6 +860,10 @@ video {
   font-size: 24px;
 }
 
+.text-\[26px\] {
+  font-size: 26px;
+}
+
 .text-\[28px\] {
   font-size: 28px;
 }
@@ -887,12 +880,12 @@ video {
   font-size: 50px;
 }
 
-.text-\[26px\] {
-  font-size: 26px;
-}
-
 .font-\[300\] {
   font-weight: 300;
+}
+
+.font-\[500\] {
+  font-weight: 500;
 }
 
 .font-\[600\] {
@@ -905,10 +898,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-\[500\] {
-  font-weight: 500;
 }
 
 .uppercase {
@@ -968,6 +957,10 @@ video {
     width: 100px;
   }
 
+  .lg\:w-\[31\%\] {
+    width: 31%;
+  }
+
   .lg\:w-\[50\%\] {
     width: 50%;
   }
@@ -976,8 +969,8 @@ video {
     width: 90%;
   }
 
-  .lg\:w-\[31\%\] {
-    width: 31%;
+  .lg\:w-\[48\%\] {
+    width: 48%;
   }
 
   .lg\:max-w-\[1300px\] {
@@ -1016,10 +1009,6 @@ video {
     gap: 630px;
   }
 
-  .lg\:gap-\[30px\] {
-    gap: 30px;
-  }
-
   .lg\:bg-cover {
     background-size: cover;
   }
@@ -1035,6 +1024,11 @@ video {
   .lg\:py-\[100px\] {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+
+  .lg\:py-\[1\] {
+    padding-top: 1;
+    padding-bottom: 1;
   }
 
   .lg\:pl-\[150px\] {
