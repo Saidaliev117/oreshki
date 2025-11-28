@@ -562,12 +562,12 @@ video {
   margin-left: 2.5rem;
 }
 
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
 .ml-2 {
   margin-left: 0.5rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
 }
 
 .ml-8 {
@@ -578,20 +578,44 @@ video {
   margin-top: 2.5rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .mt-5 {
   margin-top: 1.25rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.ml-5 {
+  margin-left: 1.25rem;
 }
 
-.ml-20 {
-  margin-left: 5rem;
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.ml-\[\] {
+  margin-left: ;
+}
+
+.ml-\[70px\] {
+  margin-left: 70px;
+}
+
+.ml-\[200px\] {
+  margin-left: 200px;
+}
+
+.ml-\[180px\] {
+  margin-left: 180px;
+}
+
+.ml-\[140px\] {
+  margin-left: 140px;
 }
 
 .flex {
@@ -602,40 +626,40 @@ video {
   display: none;
 }
 
-.w-\[\] {
-  width: ;
-}
-
-.w-\[95\%\] {
-  width: 95%;
-}
-
-.w-\[97\%\] {
-  width: 97%;
-}
-
 .w-\[300px\] {
   width: 300px;
-}
-
-.w-\[400px\] {
-  width: 400px;
 }
 
 .w-\[500px\] {
   width: 500px;
 }
 
-.w-\[200px\] {
-  width: 200px;
+.w-\[762px\] {
+  width: 762px;
 }
 
-.flex-row {
-  flex-direction: row;
+.w-\[97\%\] {
+  width: 97%;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[280px\] {
+  width: 280px;
+}
+
+.w-\[750px\] {
+  width: 750px;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -650,13 +674,23 @@ video {
   border-width: 2px;
 }
 
-.bg-\[\] {
-  background-color: ;
+.border-\[1px\] {
+  border-width: 1px;
+}
+
+.border-\[\#505050\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(80 80 80 / var(--tw-border-opacity, 1));
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#F8F8F8\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 248 248 / var(--tw-bg-opacity, 1));
 }
 
 .px-3 {
@@ -669,16 +703,6 @@ video {
   padding-bottom: 0.25rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -688,20 +712,20 @@ video {
   text-align: center;
 }
 
-.text-\[50px\] {
-  font-size: 50px;
-}
-
 .text-\[15px\] {
   font-size: 15px;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-\[50px\] {
+  font-size: 50px;
 }
 
-.text-\[\] {
-  color: ;
+.text-\[30px\] {
+  font-size: 30px;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-\[\#40AD74\] {
@@ -709,9 +733,26 @@ video {
   color: rgb(64 173 116 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#C4C4C4\] {
+  --tw-text-opacity: 1;
+  color: rgb(196 196 196 / var(--tw-text-opacity, 1));
+}
+
 @media (min-width: 1280px) {
-  .xl\:ml-\[\] {
-    margin-left: ;
+  .xl\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
+  .xl\:ml-20 {
+    margin-left: 5rem;
+  }
+
+  .xl\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
+  .xl\:ml-\[180px\] {
+    margin-left: 180px;
   }
 
   .xl\:ml-\[300px\] {
@@ -722,40 +763,72 @@ video {
     margin-left: 400px;
   }
 
-  .xl\:ml-10 {
-    margin-left: 2.5rem;
-  }
-
-  .xl\:ml-5 {
-    margin-left: 1.25rem;
-  }
-
   .xl\:mt-7 {
     margin-top: 1.75rem;
+  }
+
+  .xl\:ml-\[100px\] {
+    margin-left: 100px;
+  }
+
+  .xl\:ml-\[160px\] {
+    margin-left: 160px;
   }
 
   .xl\:ml-\[200px\] {
     margin-left: 200px;
   }
 
-  .xl\:ml-\[180px\] {
-    margin-left: 180px;
+  .xl\:ml-\[550px\] {
+    margin-left: 550px;
   }
 
-  .xl\:ml-20 {
-    margin-left: 5rem;
+  .xl\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .xl\:ml-\[180x\] {
+    margin-left: 180x;
+  }
+
+  .xl\:ml-\[180\] {
+    margin-left: 180;
+  }
+
+  .xl\:ml-1 {
+    margin-left: 0.25rem;
+  }
+
+  .xl\:ml-\[650px\] {
+    margin-left: 650px;
   }
 
   .xl\:block {
     display: block;
   }
 
+  .xl\:w-\[200px\] {
+    width: 200px;
+  }
+
   .xl\:w-\[400px\] {
     width: 400px;
   }
 
-  .xl\:w-\[200px\] {
-    width: 200px;
+  .xl\:w-\[600px\] {
+    width: 600px;
+  }
+
+  .xl\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .xl\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .xl\:w-\[00px\] {
+    width: 00px;
   }
 
   .xl\:flex-row {
